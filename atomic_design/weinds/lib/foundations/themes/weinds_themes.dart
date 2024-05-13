@@ -6,15 +6,15 @@ final ligthThemeWeincode = ThemeData(
     primarySwatch: WeinDsColorsFoundation.primaryColorMat,
     textTheme: const TextTheme(
         bodyLarge: TextStyle(
-      fontFamily: WeincodeTypography.familyCocogose,
+      fontFamily: 'Cocogoose',//WeincodeTypography.familyCocogose,
       fontSize: WeinDsFoundation.fontSizeH4,
     ),
     bodyMedium: TextStyle(
-      fontFamily: WeincodeTypography.familyCocogose,
+      fontFamily: 'Cocogoose',//WeincodeTypography.familyCocogose,
       fontSize: WeinDsFoundation.fontSizeH5,
     ),
     bodySmall: TextStyle(
-      fontFamily: WeincodeTypography.familyCocogose,
+      fontFamily: 'Cocogoose',//WeincodeTypography.familyCocogose,
       fontSize: WeinDsFoundation.fontSizeH6,
     ),
     ));

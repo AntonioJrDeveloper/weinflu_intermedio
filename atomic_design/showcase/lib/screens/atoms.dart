@@ -1,9 +1,7 @@
-import 'package:flutter/cupertino.dart';
+import 'package:app/config/routes/app_routes.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
-import 'package:weinds/atoms/weinds_button.dart';
+
 import 'package:weinds/weinds.dart';
-import 'package:weinds/foundations/typo.dart';
 
 class AtomsPage extends StatelessWidget {
   const AtomsPage({super.key});
@@ -73,10 +71,10 @@ class AtomsPage extends StatelessWidget {
                           fontWeight: FontWeight.normal,
                         )),
                     trailing: WeinDsButton(
-                      text: 'Ver más',
-                      type: ButtonType.secondary,
-                      onPressed: () {},
-                    ),
+                        text: 'Ver más',
+                        type: ButtonType.secondary,
+                        onPressed: () =>
+                            Navigator.of(context).pushNamed(AppRoutes.buttons)),
                     onTap: () {},
                   ),
                 ],

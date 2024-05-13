@@ -16,4 +16,5 @@ class AppRoutes {
   static const String pages = '/pages';
   static const String successTrx = '$pages/successTrx';
   static const String foundation = '/foundation';
+  static const String buttons = '/buttons';
 }
